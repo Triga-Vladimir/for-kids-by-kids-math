@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.body {
+    position: relative;
+
+    background: rgb(207, 202, 202);
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.resultGood {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 50px;
+    right: 50px;
+}
+
+.resultLost{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 50px;
+    left: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: coral;
+}
+
+.good {
+    background: rgb(17, 204, 48);
+}
+
+.failure {
+    background: rgb(212, 13, 13);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.body .is-hidden {
+    display: none;
+}
+
+.span {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(116, 26, 26);
+}
+
+.task {
+    display: flex;
+}
+
+.task .span + .span {
+    margin-left: 20px;
+}
+
+.result {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn {
+    display: block;
+    margin-top: 20px;
+}
+.button {
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 270px;
+    height: 55px;
+    font-size: large;
+    font-weight: bold;
+}
